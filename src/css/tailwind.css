@@ -1,0 +1,22 @@
+@tailwind base;
+
+a {
+  @apply text-primary;
+}
+a:hover {
+  @apply text-primary-darker;
+}
+
+.bgPic {
+  height: 50vh;
+}
+@media screen and (min-width: 1280px) {
+  .bgPic {
+    height: 65vh;
+  }
+}
+
+
+@tailwind components;
+
+@tailwind utilities;
