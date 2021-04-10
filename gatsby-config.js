@@ -30,4 +30,3 @@ module.exports = {
   ]
 };
 
-Via-Del-Web-logo-only.png
