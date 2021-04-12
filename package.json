@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@fontsource/ubuntu": "^4.2.2",
+    "@stripe/stripe-js": "^1.13.2",
     "gatsby": "^2.18.18",
     "gatsby-plugin-mailgo": "^0.11.3",
     "gatsby-plugin-manifest": "^3.2.0",
