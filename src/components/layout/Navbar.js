@@ -2,6 +2,7 @@ import React from "react";
 import {
   FaBars
 } from "react-icons/fa"
+import {Link} from "gatsby"
 
 function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
