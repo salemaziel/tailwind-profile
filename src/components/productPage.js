@@ -62,6 +62,51 @@ const ProductPage = () => {
   
 </section>
 
+
+
+<section className="px-4 py-12">
+  <h2 className="mb-8 text-4xl font-semibold text-center font-heading">Our products</h2>
+  <div className="flex flex-wrap -mx-4">
+    <div className="w-full px-4 mb-8 lg:w-1/3 lg:mb-0">
+      <div className="relative rounded shadow">
+        <img src="https://bootstrapshuffle.com/placeholders-2-0/pictures/paper.jpg" alt />
+        <div className="px-5 py-4 border-b">
+          <h3 className="mb-1 text-3xl font-semibold font-heading"><a href="#">Digital Paper</a></h3>
+          <p className="leading-relaxed text-gray-400">Premium quality home and office paper for all printing and copying machines.</p>
+        </div>
+        <div className="px-5 py-3">
+          <span className="text-2xl">$9,99</span>
+        </div>
+      </div>
+    </div>
+    <div className="w-full px-4 mb-8 lg:w-1/3 lg:mb-0">
+      <div className="relative rounded shadow">
+        <img src="https://bootstrapshuffle.com/placeholders-2-0/pictures/paper.jpg" alt />
+        <div className="px-5 py-4 border-b">
+          <h3 className="mb-1 text-3xl font-semibold font-heading"><a href="#">Copier Paper</a></h3>
+          <p className="leading-relaxed text-gray-400">Premium quality home and office paper for all printing and copying machines.</p>
+        </div>
+        <div className="px-5 py-3">
+          <span className="text-2xl">$9,99</span>
+        </div>
+      </div>
+    </div>
+    <div className="w-full px-4 mb-8 lg:w-1/3 lg:mb-0">
+      <div className="relative rounded shadow">
+        <img src="https://bootstrapshuffle.com/placeholders-2-0/pictures/paper.jpg" alt />
+        <div className="px-5 py-4 border-b">
+          <h3 className="mb-1 text-3xl font-semibold font-heading"><a href="#">All Purpose paper</a></h3>
+          <p className="leading-relaxed text-gray-400">Premium quality home and office paper for all printing and copying machines.</p>
+        </div>
+        <div className="px-5 py-3">
+          <span className="text-2xl">$9,99</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
     </>
 )
 }

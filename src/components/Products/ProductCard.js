@@ -57,21 +57,29 @@ const ProductCard = ({ product }) => {
     }
   }
   return (
-    <div style={cardStyles}>
-      <form onSubmit={handleSubmit}>
+<>
+
+<div className="w-full px-4 mb-8 lg:w-1/3 lg:mb-0">
+      <form onSubmit={handleSubmit} className="relative rounded shadow">
         <fieldset style={{ border: "none" }}>
+            <figure>
+            <img src="https://bootstrapshuffle.com/placeholders-2-0/pictures/paper.jpg" alt />
+            </figure>
           <legend>
-            <h4>{product.name}</h4>
+          <div className="px-5 py-4 border-b">
+          <h3 className="mb-1 text-3xl font-semibold font-heading">{product.name}</h3>
+          <p className="leading-relaxed text-gray-400">Premium quality home and office paper for all printing and copying machines.</p>
+        </div>
           </legend>
           <label>
             Price{" "}
-            <select name="priceSelect">
+            <div name="priceSelect py-3 px-5">
               {product.prices.map(price => (
-                <option key={price.id} value={price.id}>
+                <span key={price.id} value={price.id} className="text-2xl">
                   {formatPrice(price.unit_amount, price.currency)}
-                </option>
+                </span>
               ))}
-            </select>
+            </div>
           </label>
         </fieldset>
         <button
@@ -86,6 +94,12 @@ const ProductCard = ({ product }) => {
         </button>
       </form>
     </div>
+
+
+
+
+
+    </>
   )
 }
 export default ProductCard
