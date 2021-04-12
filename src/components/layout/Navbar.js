@@ -46,16 +46,16 @@ function Navbar(props) {
             }
             id="example-navbar-warning"
           >
-            {/*<ul className="flex flex-col mr-auto list-none lg:flex-row">
+            <ul className="flex flex-col mr-auto list-none lg:flex-row">
               <li className="flex items-center">
-                <a
+                <Link
                   className={
                     (props.transparent
                       ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
                       : "text-gray-800 hover:text-gray-600") +
                     " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   }
-                  href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/profile"
+                  to="/product"
                 >
                   <i
                     className={
@@ -65,10 +65,10 @@ function Navbar(props) {
                       " far fa-file-alt text-lg leading-lg mr-2"
                     }
                   />{" "}
-                  Docs
-                </a>
+                  Product
+                </Link>
               </li>
-                  </ul>*/}
+                  </ul>
             <ul className="flex flex-col list-none lg:flex-row lg:ml-auto">
               <li className="flex items-center">
                 <a
