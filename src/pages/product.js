@@ -1,13 +1,9 @@
 import React from "react"
 
-import {Helmet} from "react-helmet"
 
 const Product = () => (
     <>
-<Helmet>
-<script src="https://js.stripe.com/v3"></script>
 
-</Helmet>
 <section className="px-4 py-12">
   <div className="flex flex-wrap -mx-4">
     <div className="px-4 mb-4 lg:w-1/2 lg:mb-0"><img className="rounded shadow" src="https://bootstrapshuffle.com/placeholders-2-0/pictures/paper.jpg" alt /></div>
