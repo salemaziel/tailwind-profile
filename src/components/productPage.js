@@ -6,7 +6,7 @@ import { loadStripe } from '@stripe/stripe-js';
 const stripePromise = loadStripe('pk_test_51IOGCRKuQWMgw7CJULP1TG7A7QxmnArIzLmKnnvKWEDkG64jSCMy1j47lYNpHRZgXKiXyPjhvCp01IlEyaJEQ4ye00D0tDgZPo');
 
 
-const Product = () => {
+const ProductPage = () => {
     const handleClick = async (event) => {
         // When the customer clicks on the button, redirect them to Checkout.
         const stripe = await stripePromise;
@@ -66,4 +66,4 @@ const Product = () => {
 )
 }
 
-export default Product
+export default ProductPage
