@@ -16,6 +16,9 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-react-helmet`,
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Salem Aziel Mackintosh-Benitez`,
