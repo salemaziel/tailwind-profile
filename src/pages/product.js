@@ -1,6 +1,6 @@
 import React from "react"
 
-import ProductPage from "../components/productPage"
+import Products from "../components/Products/Products"
 
 
 const Product = () => (
@@ -41,7 +41,7 @@ const Product = () => (
 
   
 </section>*/}
-<ProductPage />
+<Products />
     </>
 )
 

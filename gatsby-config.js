@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   plugins: [
     {
@@ -28,6 +32,14 @@ module.exports = {
         theme_color: `#2b6cb0`,
         display: `minimal-ui`,
         icon: 'src/images/Via-Del-Web-logo-only.png'
+      },
+    },
+    {
+      resolve: `gatsby-source-stripe`,
+      options: {
+        objects: ["Price"],
+        secretKey: process.env.STRIPE_SECRET_KEY,
+        downloadFiles: false,
       },
     },
   ]
